@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Sofia&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+   <script src="app.js"></script>
+    <link rel="import" href="component.html">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Picture Perfect </title>
+</head>
+<body>
+    <div id="grid-container">
+       <div id="photo-banner">
+        <img src="sky-banner.jpg" width="100%" height="2%">
+       </div>
+        <header>
+            <!-- the content of the header goes here -->
+             <h1 id="Logo">PICTURE PERFECT</h1>
+            
+        
+             <div id="menu">
+                <nav>
+                    <ul id="nav-ul">
+                        <li><a href class="navbutton">Home</a></li>
+                        <li><a href class="navbutton">About Us</a></li>
+                        <li><a href class="navbutton">Gallery</a></li>
+                        <li><a href class="navbutton">Services</a></li>
+                        <li><a href class="navbutton">Contact</a></li>
+                    
+                    </ul>
+                 </nav>
+             </div>
+             
+        </header>
+        <section id="main-content">
+            <main>
+                <header>
+                    <!-- Article's header goes here -->
+                     <h2> What we're all About!</h2>
+                </header>
+                <main>
+                    <hr>
+                    <p> Here at Picture Perfect &copy we capture everything from the smallest intimate moments to the sweeping landscapes as far as the eye can see. We understand the beauty all around us, in all shapes and sizes, and the aim of our professional photography services is always to gift you these moments as memories that last forever... 
+                    We've had the pleasure of working with so many wonderful individuals and we value our clients satisfaction first and foremost...
+                    </p>
+                    <hr>
+                    <blockquote>
+                        "Picture Perfect have immortalised the magic of me and my husband's honeymoon - a time I never want to fade! Thank you for capturing such magical memories."
+                       
+                    </blockquote>
+                    <blockquote>
+                        - Rachel S., 2024 
+                    </blockquote>
+                    <hr>
+                    <br>
+                    <br>
+                    <br>
+                    
+
+                    <style>
+                        .photo-flex {
+                            display: flex;
+                            flex-wrap: wrap; /* Allows images to wrap onto new lines */
+                            gap: 15px;
+                        }
+                
+                        .photo-flex img {
+                            width: calc(25% - 15px); /* 3 images per row with a 10px gap */
+                            height: auto;
+                            justify-content: center;
+                        }
+                    </style>
+                    <title>Photo Flex Grid</title>
+                </head>
+                <body>
+                    <div class="photo-flex">
+                        <img src="newly-weds.jpg" alt="newly-weds">
+                        <img src="pregnancy.jpg" alt="pregnancy">
+                        <img src="graduation.jpg" alt="graduation">
+                        <img src="old-couple.jpg" alt="old-couple">
+                        <img src="family-portrait.jpg" alt="family-portrait">
+                        <img src="dog.jpg" alt="dog">
+                        <img src="proposal.jpg" alt="proposal">
+                        <img src="baby.jpg" alt="baby">
+                    </div>
+
+                    <br>
+                    <br>
+
+                 
+            <div id="newsletter">
+                <hr>
+                <h3 id="nl-heading">Don't Miss out on New Packages and Our Latest Offers - Sign Up for our Newsletter!</h3>
+                <hr>
+                <br>
+                <br>
+                <br>
+               <form action="" method="">
+                <label for="first_name">First Name:</label>
+                <input type="text" id="first_name" name="first_name" required>
+                <br>
+        
+                <label for="last_name">Last Name:</label>
+                <input type="text" id="last_name" name="last_name" required>
+               </form>
+               <br>
+        
+               <label for="email">Email</label>
+               <input type="email" name="email" id="email" required>
+               <br>
+        
+               <label for="password">Password</label>
+               <input type="password" name="password" id="password">
+                <br>
+               <label for="country">Country</label>
+               <select name="country" id="country">
+                <option value="england">England</option>
+                <option value="scotland">Scotland</option>
+                <option value="wales">Wales</option>
+                <option value="northern_ireland">Northern Ireland</option>
+        
+               </select>
+               <input type="checkbox" name="subscribe" id="subscribe">
+               <label for="subscribe">Subscribe to our Newsletter!</label>
+               <br>
+        
+               <input type="submit" value="sent">
+        
+        
+               <hr>
+
+            </div>
+                  
+            
+                
+                <footer>
+                   <h2 id="footer-logo">PICTURE PERFECT</h2>
+                   <section>
+                    <nav>
+                        <ul id="footer-ul">
+                            <div id="footer-list1"> 
+                                <li><a href="">Home</a></li>
+                                <li><a href="">About Us</a></li>
+                                <li><a href="">Contact</a></li>
+                    
+                            </div>
+                               
+                            <div id="footer-list2">
+                                 <li><a href="">Privacy Policy</a></li>
+                                <li><a href="">Terms & Conditions</a></li>
+                                <li><a href="">Cookie Policy</a></li>
+                            </div>
+                           
+                           
+                        </ul>
+                    </nav>
+    
+                </footer>
+            </div>
+                
+          
+            
+    
+           
+             
+            <!-- main content of the website can go here  -->
+    
+            
+           </section>
+    
+        </footer>
+    </div>
+ 
+    
+</body>
+</html>
